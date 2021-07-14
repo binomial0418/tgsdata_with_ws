@@ -1,2 +1,5 @@
 # tgsdata_with_ws
-get tgs2602 sensor data and save data to mariaDB by ws
+DB環境：MariaDB
+硬體：nodeMCU+TGS2602傳感器
+
+本專案將TGS2602的數值由nodeMCU接收後，利用PHP的服務，將數值送進MariaDB中。
