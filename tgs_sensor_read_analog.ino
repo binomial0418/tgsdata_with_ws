@@ -111,7 +111,7 @@ void send_data_by_php(String dev_typ,String val){
   
   s = "GET /instgsdata.php?devtyp=" + dev_typ + "&val=" + val + 
       " HTTP/1.1\r\n" +
-      "Host:inskychen.com \r\n"+
+      "Host:address \r\n"+
       "Connection: close\r\n\r\n";
   Serial.print(F("\n"));
   Serial.print(s);
